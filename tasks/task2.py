@@ -2,6 +2,12 @@
 
 def solve():
 # Ниже пишите решение задачи
+    a, b, c = map(int, input().split())
+    d = 3
+    e = d + 2
+    f = e + 7
+    g = a * d + b * e + c * f
+    print(g)
 
    
 
