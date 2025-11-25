@@ -3,10 +3,9 @@
 def solve():
 # Ниже пишите решение задачи
     a, b = map(int, input().split())
-    c = a + b
-    d = c - a
-    e = c - b
-    print(d, e)
+    total = a + b
+    print(total - a, total - b)
+
 
 
 

@@ -2,11 +2,10 @@
 
 def solve():
 # Ниже пишите решение задачи
-    a = int(input())
-    b = a // 6
-    c = b * 4
-    d = b
-    print(b, c, d)
+    a, b = map(int, input().split())
+    t = a + b
+    print(total - a, total - b)
+
 
     
 # Код ниже не трогать! он нужен для тестов
