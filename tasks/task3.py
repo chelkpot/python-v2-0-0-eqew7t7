@@ -3,8 +3,7 @@
 def solve():
 # Ниже пишите решение задачи
     a, b = map(int, input().split())
-    total = a + b
-    print(total - a, total - b)
+    print(b - 1, a - 1)
 
 
 
